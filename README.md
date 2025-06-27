@@ -1,1 +1,5 @@
-# market_basket_recommendation
+## Market Basket Recommendation System
+
+This project develops a recommendation engine for retail using market basket analysis. It solves the problem of identifying product associations to suggest additional items to customers, thereby increasing cross-sell opportunities and improving the shopping experience. By mining transaction data for frequent item combinations, the project uncovers which products are commonly purchased together and leverages those insights to make relevant product recommendations.
+
+The system uses association rule learning (e.g., the Apriori algorithm) to discover frequent item sets and collaborative filtering for personalized suggestions. The implementation uses Python libraries such as `mlxtend`, `pandas`, and `scikit-learn`, and visualizes results with heatmaps or product co-purchase graphs. A key deliverable is an interactive Streamlit web app that allows users to simulate a shopping cart and receive recommendations based on association rules and collaborative filtering logic.
